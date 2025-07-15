@@ -1,0 +1,143 @@
+$date
+	Fri Jun 13 09:58:19 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module alu_tb $end
+$var wire 1 ! alu_flag $end
+$var wire 6 " R [5:0] $end
+$var reg 6 # A [5:0] $end
+$var reg 6 $ B [5:0] $end
+$var reg 2 % OP [1:0] $end
+$scope module uut $end
+$var wire 6 & A [5:0] $end
+$var wire 6 ' B [5:0] $end
+$var wire 2 ( OP [1:0] $end
+$var wire 6 ) R [5:0] $end
+$var wire 1 ! alu_flag $end
+$var wire 6 * XOR [5:0] $end
+$var wire 6 + R_ADD [5:0] $end
+$var wire 1 , CF_ADD $end
+$var reg 6 - result [5:0] $end
+$scope module ADD_SUB1 $end
+$var wire 6 . A [5:0] $end
+$var wire 6 / B [5:0] $end
+$var wire 6 0 R [5:0] $end
+$var wire 1 , CF $end
+$upscope $end
+$scope module OR_XOR_AND1 $end
+$var wire 6 1 A [5:0] $end
+$var wire 6 2 B [5:0] $end
+$var wire 6 3 R [5:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b111 3
+b11 2
+b100 1
+b111 0
+b11 /
+b100 .
+b111 -
+0,
+b111 +
+b111 *
+b111 )
+b0 (
+b11 '
+b100 &
+b0 %
+b11 $
+b100 #
+b111 "
+1!
+$end
+#10
+b110 "
+b110 )
+b110 -
+b110 *
+b110 3
+b110 +
+b110 0
+b1 %
+b1 (
+b10 $
+b10 '
+b10 /
+b10 2
+#20
+b101 *
+b101 3
+0!
+b0 "
+b0 )
+b0 -
+b1001 +
+b1001 0
+b10 %
+b10 (
+b111 #
+b111 &
+b111 .
+b111 1
+#30
+b111 *
+b111 3
+b111 +
+b111 0
+b11 %
+b11 (
+b1 $
+b1 '
+b1 /
+b1 2
+b110 #
+b110 &
+b110 .
+b110 1
+#40
+b0 *
+b0 3
+1!
+b1110 "
+b1110 )
+b1110 -
+b1110 +
+b1110 0
+b0 %
+b0 (
+b111 $
+b111 '
+b111 /
+b111 2
+b111 #
+b111 &
+b111 .
+b111 1
+#50
+b110 *
+b110 3
+1!
+b110 "
+b110 )
+b110 -
+b1000 +
+b1000 0
+b1 %
+b1 (
+b1 #
+b1 &
+b1 .
+b1 1
+#60

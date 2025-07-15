@@ -1,0 +1,315 @@
+$date
+	Fri Jun 13 10:03:34 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module top_tb $end
+$var wire 6 ! result [5:0] $end
+$var wire 1 " flag $end
+$var reg 6 # a [5:0] $end
+$var reg 6 $ b [5:0] $end
+$var reg 1 % clk $end
+$var reg 2 & op [1:0] $end
+$var reg 1 ' reset $end
+$var reg 1 ( start $end
+$scope module top1 $end
+$var wire 6 ) a [5:0] $end
+$var wire 6 * b [5:0] $end
+$var wire 1 % clk $end
+$var wire 2 + op [1:0] $end
+$var wire 1 ' reset $end
+$var wire 1 ( start $end
+$var wire 6 , result [5:0] $end
+$var wire 1 " flag $end
+$var wire 6 - alu_out [5:0] $end
+$var wire 2 . alu_op [1:0] $end
+$var wire 6 / alu_in2 [5:0] $end
+$var wire 6 0 alu_in1 [5:0] $end
+$var wire 1 1 alu_flag $end
+$scope module controller1 $end
+$var wire 6 2 a [5:0] $end
+$var wire 6 3 alu_in1 [5:0] $end
+$var wire 6 4 alu_in2 [5:0] $end
+$var wire 2 5 alu_op [1:0] $end
+$var wire 6 6 b [5:0] $end
+$var wire 1 % clk $end
+$var wire 2 7 op [1:0] $end
+$var wire 1 ' reset $end
+$var wire 1 ( start $end
+$var wire 6 8 alu_out [5:0] $end
+$var wire 1 1 alu_flag $end
+$var parameter 3 9 FINISH $end
+$var parameter 3 : ONE $end
+$var parameter 3 ; START $end
+$var parameter 3 < THREE $end
+$var parameter 3 = TWO $end
+$var reg 1 " flag $end
+$var reg 3 > nstate [2:0] $end
+$var reg 3 ? pstate [2:0] $end
+$var reg 6 @ result [5:0] $end
+$scope begin NSOL $end
+$scope begin NSL $end
+$upscope $end
+$scope begin OL $end
+$upscope $end
+$upscope $end
+$scope begin PSR $end
+$upscope $end
+$upscope $end
+$scope module datapath1 $end
+$var wire 6 A A [5:0] $end
+$var wire 6 B B [5:0] $end
+$var wire 2 C OP [1:0] $end
+$var wire 6 D R [5:0] $end
+$var wire 1 1 alu_flag $end
+$var wire 6 E XOR [5:0] $end
+$var wire 6 F R_ADD [5:0] $end
+$var wire 1 G CF_ADD $end
+$var reg 6 H result [5:0] $end
+$scope module ADD_SUB1 $end
+$var wire 6 I A [5:0] $end
+$var wire 6 J B [5:0] $end
+$var wire 6 K R [5:0] $end
+$var wire 1 G CF $end
+$upscope $end
+$scope module OR_XOR_AND1 $end
+$var wire 6 L A [5:0] $end
+$var wire 6 M B [5:0] $end
+$var wire 6 N R [5:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b10 =
+b11 <
+b0 ;
+b1 :
+b100 9
+$end
+#0
+$dumpvars
+b0 N
+b0 M
+b0 L
+b0 K
+b0 J
+b0 I
+b0 H
+0G
+b0 F
+b0 E
+b0 D
+b0 C
+b0 B
+b0 A
+b0 @
+bx ?
+b0 >
+b0 8
+b0 7
+b0 6
+b0 5
+b0 4
+b0 3
+b0 2
+01
+b0 0
+b0 /
+b0 .
+b0 -
+b0 ,
+b0 +
+b0 *
+b0 )
+0(
+0'
+b0 &
+0%
+b0 $
+b0 #
+0"
+b0 !
+$end
+#5
+b0 ?
+b0 >
+1%
+#10
+1'
+0%
+#15
+1%
+#20
+11
+b1000 -
+b1000 8
+b1000 D
+b1000 H
+b110 E
+b110 N
+b1000 F
+b1000 K
+b1 >
+b11 /
+b11 4
+b11 B
+b11 J
+b11 M
+b11 $
+b11 *
+b11 6
+b101 0
+b101 3
+b101 A
+b101 I
+b101 L
+b101 #
+b101 )
+b101 2
+1(
+0'
+0%
+#25
+1"
+b1000 !
+b1000 ,
+b1000 @
+b1 ?
+b10 >
+1%
+#30
+1"
+b1000 !
+b1000 ,
+b1000 @
+b10 >
+0%
+#35
+01
+b0 -
+b0 8
+b0 D
+b0 H
+b0 E
+b0 N
+b0 F
+b0 K
+b10 ?
+b0 /
+b0 4
+b0 B
+b0 J
+b0 M
+b0 $
+b0 *
+b0 6
+b0 0
+b0 3
+b0 A
+b0 I
+b0 L
+b0 #
+b0 )
+b0 2
+0"
+b0 !
+b0 ,
+b0 @
+b11 >
+1%
+#40
+b11 >
+0%
+#45
+1"
+b1101 !
+b1101 ,
+b1101 @
+11
+b1101 -
+b1101 8
+b1101 D
+b1101 H
+b1101 E
+b1101 N
+b10001 F
+b10001 K
+b11 ?
+b1 .
+b1 5
+b1 C
+b1 &
+b1 +
+b1 7
+b111 /
+b111 4
+b111 B
+b111 J
+b111 M
+b111 $
+b111 *
+b111 6
+b1010 0
+b1010 3
+b1010 A
+b1010 I
+b1010 L
+b1010 #
+b1010 )
+b1010 2
+b100 >
+1%
+#50
+1"
+b1101 !
+b1101 ,
+b1101 @
+b100 >
+0%
+#55
+b100 ?
+1"
+b1101 !
+b1101 ,
+b1101 @
+b100 >
+1%
+#60
+1"
+b1101 !
+b1101 ,
+b1101 @
+0%
+#65
+b1 >
+b0 ?
+1'
+0"
+b0 !
+b0 ,
+b0 @
+1%
+#70
+b1 >
+0%
+#75
+b1 >
+1%
+#80
+b1 >
+0%
+#85
+b1 >
+1%
+#90
+b1 >
+0%
+#95
+1%

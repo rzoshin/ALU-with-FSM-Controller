@@ -1,0 +1,190 @@
+$date
+	Fri Jun 13 10:01:13 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module controller_tb $end
+$var wire 6 ! result [5:0] $end
+$var wire 1 " flag $end
+$var wire 2 # alu_op [1:0] $end
+$var wire 6 $ alu_in2 [5:0] $end
+$var wire 6 % alu_in1 [5:0] $end
+$var reg 6 & a [5:0] $end
+$var reg 1 ' alu_flag $end
+$var reg 6 ( alu_out [5:0] $end
+$var reg 6 ) b [5:0] $end
+$var reg 1 * clk $end
+$var reg 2 + op [1:0] $end
+$var reg 1 , reset $end
+$var reg 1 - start $end
+$scope module dut $end
+$var wire 6 . a [5:0] $end
+$var wire 1 ' alu_flag $end
+$var wire 6 / alu_in1 [5:0] $end
+$var wire 6 0 alu_in2 [5:0] $end
+$var wire 2 1 alu_op [1:0] $end
+$var wire 6 2 alu_out [5:0] $end
+$var wire 6 3 b [5:0] $end
+$var wire 1 * clk $end
+$var wire 2 4 op [1:0] $end
+$var wire 1 , reset $end
+$var wire 1 - start $end
+$var parameter 3 5 FINISH $end
+$var parameter 3 6 ONE $end
+$var parameter 3 7 START $end
+$var parameter 3 8 THREE $end
+$var parameter 3 9 TWO $end
+$var reg 1 " flag $end
+$var reg 3 : nstate [2:0] $end
+$var reg 3 ; pstate [2:0] $end
+$var reg 6 < result [5:0] $end
+$scope begin NSOL $end
+$scope begin NSL $end
+$upscope $end
+$scope begin OL $end
+$upscope $end
+$upscope $end
+$scope begin PSR $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b10 9
+b11 8
+b0 7
+b1 6
+b100 5
+$end
+#0
+$dumpvars
+b0 <
+bx ;
+b0 :
+b0 4
+b0 3
+b0 2
+b0 1
+b0 0
+b0 /
+b0 .
+0-
+0,
+b0 +
+0*
+b0 )
+b0 (
+0'
+b0 &
+b0 %
+b0 $
+b0 #
+0"
+b0 !
+$end
+#5
+b0 ;
+b0 :
+1*
+#10
+0*
+1,
+#15
+1*
+#20
+b1 :
+0*
+1'
+b1000 (
+b1000 2
+b11 $
+b11 0
+b11 )
+b11 3
+b101 %
+b101 /
+b101 &
+b101 .
+1-
+0,
+#25
+1"
+b1000 !
+b1000 <
+b1 ;
+b10 :
+1*
+#30
+1"
+b1000 !
+b1000 <
+b10 :
+0*
+#35
+b10 ;
+0"
+b0 !
+b0 <
+b11 :
+1*
+0'
+b0 (
+b0 2
+b0 $
+b0 0
+b0 )
+b0 3
+b0 %
+b0 /
+b0 &
+b0 .
+#40
+b11 :
+0*
+#45
+b11 ;
+1"
+b1101 !
+b1101 <
+b100 :
+1*
+1'
+b1101 (
+b1101 2
+b1 #
+b1 1
+b1 +
+b1 4
+b111 $
+b111 0
+b111 )
+b111 3
+b1010 %
+b1010 /
+b1010 &
+b1010 .
+#50
+1"
+b1101 !
+b1101 <
+b100 :
+0*
+#55
+b100 ;
+1"
+b1101 !
+b1101 <
+b100 :
+1*
+#60
+1"
+b1101 !
+b1101 <
+0*
+#65
+1*
